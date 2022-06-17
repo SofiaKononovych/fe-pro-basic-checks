@@ -33,7 +33,7 @@ export const reducerIf = (action, string) => {
     if (action === 'uppercase'){
         return string.toUpperCase();
     }else if (action === 'lowercase'){
-        return string.toUpperCase();
+        return string.toLowerCase();
     }else if (action === 'capitalize'){
         return capitalizeString(string);
     }else if (action === 'fence'){
